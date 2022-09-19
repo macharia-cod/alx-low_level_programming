@@ -1,10 +1,18 @@
+
+
+
+
+
+
+
+    
 #include "main.h"
 
 #include <stdio.h>
 
 /**
 
- * main - check the code
+ * main - check the code.
 
  *
 
@@ -16,10 +24,18 @@ int main(void)
 
 {
 
-    printf("%d\n", mul(98, 1024));
+    char c;
 
-    printf("%d\n", mul(-402, 4096));
+    c = 'A';
+
+    printf("%c: %d\n", c, _isupper(c));
+
+    c = 'a';
+
+    printf("%c: %d\n", c, _isupper(c));
 
     return (0);
 
 }
+    
+
