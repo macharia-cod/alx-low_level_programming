@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include ".h"
 
 /**
  * _isupper - checks if parameter is an uppercase character.
