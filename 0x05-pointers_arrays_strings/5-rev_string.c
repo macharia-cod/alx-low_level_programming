@@ -19,10 +19,10 @@ void rev_string(char *s)
 
 	for (n = 0; n < (b - 1); n++)
 	{
-		for(m = n + 1; m > 0; m--)
+		for (m = n + 1; m > 0; m--)
 		{
 			temp = *(str + m);
-			*(str + m ) = *(str + (m -1 ));
+			*(str + m ) = *(str + (m - 1));
 			*(str + (m - 1)) = temp;
 		}
 	}
