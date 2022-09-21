@@ -22,7 +22,7 @@ void rev_string(char *s)
 		for (m = n + 1; m > 0; m--)
 		{
 			temp = *(str + m);
-			*(str + m ) = *(str + (m - 1));
+			*(str + m) = *(str + (m - 1));
 			*(str + (m - 1)) = temp;
 		}
 	}
